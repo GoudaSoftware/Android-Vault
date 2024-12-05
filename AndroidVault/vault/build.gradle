@@ -5,7 +5,7 @@ plugins {
 
 group = "com.goudasoftware"
 project.ext.bundle_name = "vault"
-version = "1.4.4"
+version = "1.4.5"
 
 android {
     compileSdk 34
