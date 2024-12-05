@@ -1,4 +1,4 @@
-BR Vault - Android
+Android-Vault - Android
 ============
 
 <strong>This is has been forked from https://github.com/BottleRocketStudios/Android-Vault and is meant to be a simple update allowing publishing the artifact to MavenCentral, as it previously was published to jCenter and no longer exists.</strong>
@@ -57,7 +57,7 @@ Add the MavenCentral repository and include the library in your project with the
 
         dependencies {
             ...
-            compile 'com.goudasoftware:vault:1.4.2'
+            implementation 'com.goudasoftware:vault:1.4.2'
         }
 
 #### Sample Application
