@@ -57,7 +57,7 @@ Add the MavenCentral repository and include the library in your project with the
 
         dependencies {
             ...
-            implementation 'com.goudasoftware:vault:1.4.3'
+            implementation 'com.goudasoftware:vault:1.4.4'
         }
 
 #### Sample Application

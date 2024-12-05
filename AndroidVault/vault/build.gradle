@@ -5,7 +5,7 @@ plugins {
 
 group = "com.goudasoftware"
 project.ext.bundle_name = "vault"
-version = "1.4.3"
+version = "1.4.4"
 
 android {
     compileSdk 34
@@ -47,7 +47,7 @@ afterEvaluate {
                     name = group + "." + project.ext.bundle_name
                     description = "Android-Vault is an encrypted vault for storing sensitive information"
                     url = 'https://github.com/GoudaSoftware/Android-Vault'
-                    packaging = "aar"
+                    packaging = "jar"
                     licenses {
                         license {
                             name = 'The Apache License, Version 2.0'
